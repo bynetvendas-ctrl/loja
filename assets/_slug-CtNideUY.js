@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Ciaf_P-h.js";import{r as t,t as n}from"./index-BcTd2aBB.js";var r=e();function i(){let{slug:e}=n.useParams();return(0,r.jsx)(t,{productSlug:e})}export{i as component};

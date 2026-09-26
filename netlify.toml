@@ -1,0 +1,78 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  included_files = ["store.config.json", "db.js"]
+
+[[redirects]]
+  from = "/_serverFn/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin.html"
+  status = 200
+
+[[redirects]]
+  from = "/sobre-nos"
+  to = "/sobre-nos.html"
+  status = 200
+
+[[redirects]]
+  from = "/termos"
+  to = "/termos.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacidade"
+  to = "/privacidade.html"
+  status = 200
+
+[[redirects]]
+  from = "/politica-de-envio"
+  to = "/politica-de-envio.html"
+  status = 200
+
+[[redirects]]
+  from = "/politica-de-reembolso"
+  to = "/politica-de-reembolso.html"
+  status = 200
+
+[[redirects]]
+  from = "/trocas-e-devolucoes"
+  to = "/trocas-e-devolucoes.html"
+  status = 200
+
+[[redirects]]
+  from = "/checkout/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/checkout"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/pedido/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/pedido"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/meus-pedidos"
+  to = "/index.html"
+  status = 200
+

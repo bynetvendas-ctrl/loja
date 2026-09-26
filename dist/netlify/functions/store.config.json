@@ -1,0 +1,40 @@
+{
+  "storeName": "Loja das Ferramentas",
+  "legalName": "Loja da Ferramentaria LTDA",
+  "cnpj": "28.632.062/0001-35",
+  "email": "compras@lojadasferramentas.com",
+  "phone": "(11) 99999-9999",
+  "whatsapp": "5511999999999",
+  "businessHours": "Segunda a Sexta, das 08h às 18h",
+  "address": {
+    "street": "Rua José de Araújo Novaes",
+    "number": "11",
+    "complement": "",
+    "neighborhood": "Jardim Germânia",
+    "city": "São Paulo",
+    "state": "SP",
+    "zipcode": "05848-070"
+  },
+  "shipping": {
+    "freeShippingMinDays": 3,
+    "freeShippingMaxDays": 6,
+    "sedexMinDays": 1,
+    "sedexMaxDays": 2
+  },
+  "propay": {
+    "baseUrl": "https://api.propixbr.com",
+    "clientId": "live_3c5bd42510613688ff9dc90526635646",
+    "clientSecret": "sk_6654592bdd921674278d6eff630ca5616ff1cba3d7ee21341cb7bb7a31e4037a"
+  },
+  "meta": {
+    "pixelId": "1701616827597514",
+    "capiToken": "EAAdwa0bNmmwBSuSqVYEpbutNZBuHGtWeHWan942VKE5c7Ob41rHr5pyno4g9qHWBpWNvha8bzanDwy1V3kQf7cGklZAo6bzuSQVfzjsPbFZAMbhk1xhmpYCnvOgMRlufHGe1ymqeTe9qIrfYKUnEVvgG7HQOfmf3WEnoRpBbC8ReypiIJ4Wm0NiJRptrlZBeUgZDZD"
+  },
+  "supabase": {
+    "url": "https://xiolhpmpuqzhczqqkayb.supabase.co",
+    "anonKey": "sb_publishable_DmVsB4rYbNpRx_UWlXULWQ_tZMnw6Bf",
+    "serviceRoleKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhpb2xocG1wdXF6aGN6cXFrYXliIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MDI1ODQ2MywiZXhwIjoyMTA1ODM0NDYzfQ.QzXQwUWLBcRQRZlM2N4lQcafYaBitm8SKTJJPCFJuik",
+    "storeId": "lojadasferramentas"
+  },
+  "adminPassword": "admin"
+}

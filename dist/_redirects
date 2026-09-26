@@ -1,0 +1,20 @@
+# Roteamento amigável para páginas da Loja das Ferramentas no Netlify
+/sobre-nos             /sobre-nos.html             200
+/privacidade           /privacidade.html           200
+/termos                /termos.html                200
+/politica-de-envio     /politica-de-envio.html     200
+/politica-de-reembolso /politica-de-reembolso.html 200
+/trocas-e-devolucoes   /trocas-e-devolucoes.html   200
+/admin                 /admin.html                 200
+/admin/                /admin.html                 200
+
+# Rotas de SPA (Checkout, Pedido Pix e Histórico)
+/checkout/*            /index.html                 200
+/checkout              /index.html                 200
+/pedido/*              /index.html                 200
+/pedido                /index.html                 200
+/meus-pedidos          /index.html                 200
+
+# Redirecionamento da API e Server Functions para Netlify Functions
+/_serverFn/*           /.netlify/functions/api/:splat  200
+/api/*                 /.netlify/functions/api/:splat  200

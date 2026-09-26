@@ -1,0 +1,19 @@
+{
+  "name": "loja-das-ferramentas",
+  "version": "1.0.0",
+  "description": "E-commerce de ferramentas elétricas pronto para customização e novo backend",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node build-dist.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "ferramentas",
+    "react",
+    "checkout"
+  ],
+  "author": "",
+  "license": "ISC"
+}
