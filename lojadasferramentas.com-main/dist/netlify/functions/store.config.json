@@ -1,0 +1,39 @@
+{
+  "storeId": "lojadasferramentas",
+  "storeName": "Loja das Ferramentas",
+  "legalName": "Loja da Ferramentaria LTDA",
+  "cnpj": "28.632.062/0001-35",
+  "email": "compras@lojadasferramentas.com",
+  "phone": "(11) 99999-9999",
+  "whatsapp": "5511999999999",
+  "businessHours": "Segunda a Sexta, das 08h às 18h",
+  "address": {
+    "street": "Rua José de Araújo Novaes",
+    "number": "11",
+    "complement": "",
+    "neighborhood": "Jardim Germânia",
+    "city": "São Paulo",
+    "state": "SP",
+    "zipcode": "05848-070"
+  },
+  "shipping": {
+    "freeShippingMinDays": 3,
+    "freeShippingMaxDays": 6,
+    "sedexMinDays": 1,
+    "sedexMaxDays": 2
+  },
+  "activeGateway": "propix",
+  "pushinpay": {
+    "token": "71442|21ebFQZWgY6mqyd4UpvnlsfkZ0s9eIKQVvZhmOcM235194a3"
+  },
+  "propay": {
+    "baseUrl": "https://api.propixbr.com",
+    "clientId": "live_3c5bd42510613688ff9dc90526635646",
+    "clientSecret": "sk_6654592bdd921674278d6eff630ca5616ff1cba3d7ee21341cb7bb7a31e4037a"
+  },
+  "meta": {
+    "pixelId": "1724287751986064",
+    "capiToken": "EAAdh1ZBLlbFUBSjtwbjir4WEqRv7LU0hEmbBC7wf3R1SyKvbWKTVUzvTvWDHEjp2VEJ9ReQLb2pj8b41QBzzwyVOQgtoAGC1zC6MQNzsrcVWreD2E5ZAcjqUZATD3qOPmctftcgVHvqBaGMvMwOuszCH4fZCZCDTGWsWHEcD6PlQcnpGN4S3zEVKvAEHK7AZDZD"
+  },
+  "adminPassword": "admin"
+}

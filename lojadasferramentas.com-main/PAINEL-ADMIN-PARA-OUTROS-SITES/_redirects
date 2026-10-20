@@ -1,0 +1,4 @@
+﻿/_serverFn/*  /.netlify/functions/api/:splat  200
+/api/*        /.netlify/functions/api/:splat  200
+/admin        /admin.html                     200
+/admin/       /admin.html                     200

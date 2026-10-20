@@ -1,0 +1,39 @@
+{
+  "storeId": "lojadasferramentas",
+  "storeName": "Loja das Ferramentas",
+  "legalName": "Loja da Ferramentaria LTDA",
+  "cnpj": "28.632.062/0001-35",
+  "email": "compras@lojadasferramentas.com",
+  "phone": "(11) 99999-9999",
+  "whatsapp": "5511999999999",
+  "businessHours": "Segunda a Sexta, das 08h às 18h",
+  "address": {
+    "street": "Rua José de Araújo Novaes",
+    "number": "11",
+    "complement": "",
+    "neighborhood": "Jardim Germânia",
+    "city": "São Paulo",
+    "state": "SP",
+    "zipcode": "05848-070"
+  },
+  "shipping": {
+    "freeShippingMinDays": 3,
+    "freeShippingMaxDays": 6,
+    "sedexMinDays": 1,
+    "sedexMaxDays": 2
+  },
+  "activeGateway": "propix",
+  "pushinpay": {
+    "token": "71442|21ebFQZWgY6mqyd4UpvnlsfkZ0s9eIKQVvZhmOcM235194a3"
+  },
+  "propay": {
+    "baseUrl": "https://api.propixbr.com",
+    "clientId": "live_3c5bd42510613688ff9dc90526635646",
+    "clientSecret": "sk_6654592bdd921674278d6eff630ca5616ff1cba3d7ee21341cb7bb7a31e4037a"
+  },
+  "meta": {
+    "pixelId": "1726652558819066",
+    "capiToken": "<!-- Meta Pixel Code --> <script> !function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '1726652558819066'); fbq('track', 'PageView'); </script> <noscript><img height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=1726652558819066&ev=PageView&noscript=1\" /></noscript> <!-- End Meta Pixel Code -->"
+  },
+  "adminPassword": "admin"
+}

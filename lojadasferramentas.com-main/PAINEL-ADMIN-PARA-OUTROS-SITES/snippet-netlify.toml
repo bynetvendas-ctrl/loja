@@ -1,0 +1,27 @@
+# ============================================================================
+# Cole estas linhas no netlify.toml do seu outro site para ativar o Painel Admin
+# ============================================================================
+
+[functions]
+  included_files = ["store.config.json", "db.js"]
+
+[[redirects]]
+  from = "/_serverFn/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin.html"
+  status = 200
+
+[[redirects]]
+  from = "/admin/"
+  to = "/admin.html"
+  status = 200
+
